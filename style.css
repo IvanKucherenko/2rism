@@ -751,6 +751,10 @@ body {
 
 @media (max-width: 720px) {
 
+    .header-logo {
+        order: 1;
+    }
+
     .navi {
         justify-content: space-between;
         width: -webkit-fill-available;
@@ -775,6 +779,10 @@ body {
         transition: background-color .3s;
     }
 
+    .navi-icon {
+        order: 2;
+    }
+
     .burger-menu {
         display: block;
     }
@@ -792,7 +800,6 @@ body {
         border: none;
         position: relative;
         top: 0;
-        right: 10em;
         z-index: 1;
 
     }
