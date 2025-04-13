@@ -36,8 +36,8 @@ body {
 }
 
 .container {
-    max-width: 1400px;
-    padding: 0 10px;
+    max-width: 1440px;
+    padding: 0 32px;
     margin: 0 auto;
 }
 
@@ -825,6 +825,10 @@ body {
         margin: 28px 8px 24px 8px;
     }
 
+    .hotels-title {
+        font-size: 30px;
+    }
+
     .destinations {
         margin-bottom: 80px;
     }
@@ -863,5 +867,61 @@ body {
         flex-direction: column;
         width: 100%;
         align-items: center;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .destinations {
+        margin-bottom: 40px;
+    }
+ 
+    .destination-title {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .destination-list {
+        margin-bottom: 40px;
+    }
+
+    .desc-text {
+        margin-bottom: 20px;
+    }
+
+    .hotels-title {
+        margin-bottom: 40px;
+    }
+
+    .active-title {
+        font-size: 30px;
+    }
+
+    .active-info {
+        gap: 10px;
+    }
+
+    .active-list {
+        margin-bottom: 50px;
+    }
+
+    .activities-block {
+        margin-top: 40px;
+    }
+
+    .travel-info {
+        gap: 10px;
+    }
+
+    .travel-title {
+        font-size: 30px;
+    }
+
+    .desc-text {
+        line-height: 1.7;
+    }
+
+    .footer {
+        padding-top: 40px;
     }
 }
